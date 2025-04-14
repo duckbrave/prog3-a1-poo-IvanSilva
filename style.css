@@ -1,0 +1,134 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #181818; /* Fundo preto/cinza escuro */
+    color: #eee; /* Texto branco/cinza claro */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #222; /* Container um pouco mais claro que o fundo */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Sombra mais pronunciada */
+    padding: 40px;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #ff9800; /* Laranja/Amarelo destacado */
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    letter-spacing: -1px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #333;
+    color: #eee;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #ff9800; /* Laranja/Amarelo destacado */
+    color: #222; /* Texto escuro no botão */
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e68a00; /* Laranja/Amarelo ligeiramente mais escuro no hover */
+}
+
+p {
+    margin-top: 20px;
+    color: #aaa;
+    text-align: center;
+}
+
+a {
+    color: #ff9800; /* Laranja/Amarelo destacado */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e68a00;
+}
+
+.success-message {
+    color: #a7f828;
+    background-color: #3a532d;
+    border: 1px solid #548c4a;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.error-message {
+    color: #f84528;
+    background-color: #532d30;
+    border: 1px solid #8c4a50;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dashboard-info {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.dashboard-info p {
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.dashboard-info strong {
+    font-weight: bold;
+    color: #ff9800;
+}
+
+.container form[action="logout.php"] {
+    margin-top: 20px;
+    text-align: center;
+}
+.brazino-text {
+    color:  #e68a00; /* Verde vibrante para destacar */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 30px; /* Espaçamento acima do texto */
+    text-align: center; /* Centraliza o texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra suave */
+}
