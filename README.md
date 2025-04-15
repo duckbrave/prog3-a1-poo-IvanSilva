@@ -1,31 +1,71 @@
-##Projeto de programação III Unoesc campus SMO Ciências da computação ##
+# 🔐 Sistema de Autenticação em PHP  
+**Projeto de Programação III - Ciências da Computação**  
+**Unoesc - Campus São Miguel do Oeste**
 
-sistema_autenticacao_php/ ├── classes/ │ ├── Autenticador.php │ ├── Sessao.php │ └── Usuario.php ├── cadastro.php ├── dashboard.php ├── index.php ├── login.php ├── logout.php ├── processa_cadastro.php └── processa_login.php └── style.css
+> ✨ *Construído com ódio e nojo do PHP!*  
+> 🧑‍💻 Autor: BraveDuck (Ivan Silva)
 
-✨ Funcionalidades Principais
+---
 
-🔑 Autenticação Segura: Implementação completa de cadastro, login e logout de usuários. 💾 Persistência Inteligente: Utiliza sessões para manter o usuário logado e cookies para lembrar o e-mail. 🛡️ Proteção de Rotas: Acesso restrito ao painel do usuário (dashboard.php) apenas para usuários autenticados. 🎨 Tema Escuro Atraente:Design moderno e imersivo com paleta de cores amarelo e preto. ✅ Feedback Visual: Mensagens claras de sucesso (cadastro) e erro (login). 🖱️ Usabilidade Aprimorada: Checkbox "Lembrar e-mail" perfeitamente alinhado para uma melhor experiência do usuário. 📢 Toque Personalizado: Mensagem especial "É o brazino, jogo da galera!" com destaque em verde na tela de login.
+## 📁 Estrutura do Projeto
 
-🚀 Como Começar
-Pré-requisitos:
 
-Servidor web com suporte a PHP (Usado foi o XAMPP).
-PHP versão 8.0.
-Instalação:
 
-Clone este repositório para a pasta raiz do seu servidor web:
-Acesso:
+sistema_autenticacao_php
+/ ├── classes
+    ├── Autenticador.php │
+    ├── Sessao.php │ 
+    ├── Usuario.php 
+  ├── cadastro.php 
+  ├── dashboard.php 
+  ├── index.php 
+  ├── login.php 
+  ├── logout.php 
+  ├── processa_cadastro.php 
+  ├── processa_login.php 
+  ├── style.css
 
-Abra seu navegador e navegue até o diretório do projeto no seu servidor web (localhost/projeto1/index.php. Você será automaticamente redirecionado para a página de login.
-⚙️ Utilização
-Registro: Novo por aqui? Clique em "Não possui uma conta? Cadastre-se." para criar sua conta.
-Login: Insira suas credenciais e marque "Lembrar e-mail" para facilitar futuros acessos.
-Dashboard: Após o login, explore o seu painel de usuário seguro.
-Logout: Clique em "Sair" para encerrar sua sessão.
-🤝 Contribuição
-Obrigado, estou apenas fazendo esse trabalho para avaliação, sem conhecimento na linguagem.
 
-🧑‍💻 Autor
-BraveDuck(Ivan Silva)
+---
 
-✨ Construído com odio e nojo do PHP! ✨
+## ✨ Funcionalidades Principais
+
+- 🔑 **Autenticação Segura**  
+  Cadastro, login e logout com verificação completa.
+
+- 💾 **Persistência Inteligente**  
+  Sessões mantêm o usuário logado e cookies lembram o e-mail.
+
+- 🛡️ **Proteção de Rotas**  
+  Acesso ao `dashboard.php` apenas para usuários autenticados.
+
+- 🎨 **Tema Escuro Atraente**  
+  Paleta preta e amarela com visual moderno e imersivo.
+
+- ✅ **Feedback Visual**  
+  Mensagens de sucesso (cadastro) e erro (login) destacadas.
+
+- 🖱️ **Usabilidade Aprimorada**  
+  Checkbox "Lembrar e-mail" alinhado e funcional.
+
+- 📢 **Toque Personalizado**  
+  Mensagem especial exibida em verde na tela de login:  
+  > **"É o brazino, jogo da galera!"**
+
+---
+
+## 🚀 Como Começar
+
+### ✅ Pré-requisitos
+
+- Servidor web com suporte a PHP (ex: XAMPP)
+- PHP versão 8.0+
+
+### 📥 Instalação
+
+1. Clone este repositório para a pasta raiz do seu servidor web:
+
+
+### 🤝 Contribuição
+  -Esse projeto é apenas para fins avaliativos.
+  -Não tenho conhecimento prévio em PHP, então… seja gentil 🙃
