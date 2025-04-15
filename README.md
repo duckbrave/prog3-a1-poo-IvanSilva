@@ -1,3 +1,7 @@
+Projeto de programação III
+Unoesc campus SMO
+Ciências da computação 
+
 sistema_autenticacao_php/
 ├── classes/
 │   ├── Autenticador.php
