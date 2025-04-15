@@ -1,6 +1,6 @@
 <?php
 
-require_once 'classes/Usuario.php'; // **Certifique-se de que esta linha está aqui**
+require_once 'classes/Usuario.php'; 
 
 class Autenticador {
     public function __construct() {

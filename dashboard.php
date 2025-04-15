@@ -1,5 +1,4 @@
 <?php
-// /dashboard.php
 
 require_once 'classes/Usuario.php';
 require_once 'classes/Sessao.php';

@@ -1,8 +1,6 @@
 <?php
 
-/**
- * /classes/Usuario.php
- */
+
 class Usuario {
     private string $nome;
     private string $email;

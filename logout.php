@@ -1,5 +1,5 @@
 <?php
-// /logout.php
+
 
 require_once 'classes/Sessao.php';
 

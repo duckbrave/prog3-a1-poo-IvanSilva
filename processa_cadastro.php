@@ -1,5 +1,5 @@
 <?php
-// /processa_cadastro.php
+
 
 require_once 'classes/Usuario.php';
 require_once 'classes/Autenticador.php';

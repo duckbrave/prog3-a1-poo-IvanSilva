@@ -1,8 +1,6 @@
 <?php
 
-/**
- * /classes/Sessao.php
- */
+
 class Sessao {
     public static function iniciar(): void {
         if (session_status() == PHP_SESSION_NONE) {
